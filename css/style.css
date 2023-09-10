@@ -496,6 +496,55 @@ a {
     margin-right: 120px;
 }
 
+.subscribe-subscribe {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 24px;
+}
+
+.subscribe-form-input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px
+    filter drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.subscribe-form-submit {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+}
+
+.subscribe-form-submit-icon {
+    margin-left: 16px;
+}
 /*========Backdrop============*/
 .backdrop {
     position: fixed;
@@ -547,7 +596,6 @@ a {
     height: 24px;
     flex-shrink: 0;
     border-radius: 4px;
-    border: 1px solid #000;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -559,6 +607,7 @@ a {
 .close-btn:hover{
     background-color: var(--ocean);
     border: none;
+    fill: #ffffff;
 }
 
 .close-btn-icon {
