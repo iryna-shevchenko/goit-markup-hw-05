@@ -644,7 +644,7 @@ a {
     margin-bottom: 8px;
 }
 
-.review-form-field-wrapper .comment {
+.review-margin-comment {
     margin-bottom: 16px;
 }
 
@@ -691,6 +691,7 @@ a {
 
 .review-form-comment {
     width: 100%;
+    display: block;
     height: 120px;
     font-size: 12px;
     line-height: 1.17;
